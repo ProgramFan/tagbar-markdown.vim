@@ -1,4 +1,4 @@
-if !has('python') || version < 701 || exists('g:tagbar_markdown_loaded')
+if version < 701 || exists('g:tagbar_markdown_loaded')
     finish
 endif
 let g:tagbar_markdown_loaded = 1
